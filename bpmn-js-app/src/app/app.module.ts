@@ -1,8 +1,10 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { DiagramComponent } from './diagram/diagram.component';
-import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; // Import ReactiveFormsModule
+import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
+import { DiagramComponent } from './diagram/diagram.component';
+
 
 @NgModule({
   declarations: [
@@ -11,7 +13,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   bootstrap: [AppComponent]
 })

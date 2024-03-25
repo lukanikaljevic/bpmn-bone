@@ -24,5 +24,9 @@
   "license": "MIT",
   "devDependencies": {
     "npm-run-all2": "^6.0.0"
+  },
+  "dependencies": {
+    "bpmn-js-differ": "^2.0.2",
+    "bpmn-moddle": "^9.0.1"
   }
 }
